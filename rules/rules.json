@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "predicate": "all",
+      "rules": [
+        {"field": "from", "predicate": "contains", "value": "sanidhyarajawat58@gmail.com"},
+        {"field": "subject", "predicate": "contains", "value": "happyfox"}
+      ],
+      "actions": [
+        {"type": "mark_as_read"},
+        {"type": "move", "label": "Interview Process"}
+      ]
+    }
+  ]
+}

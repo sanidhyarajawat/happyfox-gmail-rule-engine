@@ -1,0 +1,11 @@
+# requirements.txt
+
+google-auth
+google-auth-oauthlib
+google-api-python-client
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+pytest
+pytest-mock

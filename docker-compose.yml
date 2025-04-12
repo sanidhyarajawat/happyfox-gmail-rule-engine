@@ -1,0 +1,20 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    container_name: gmail_pg
+    restart: always
+    environment:
+      POSTGRES_USER: gmailuser
+      POSTGRES_PASSWORD: gmailpass
+      POSTGRES_DB: gmail_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
