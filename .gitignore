@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Token and secrets
+token.pickle
+credentials.json
+
+# Logs and output
+*.log
+
+# Coverage and test results
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Database and Docker volumes
+*.sqlite3
+*.db
+*.pid
+*.tar
+
+# Docker volumes
+pgdata/
+
+# Mypy and Pylint
+.mypy_cache/
+.dmypy.json
+pylint-report.txt
+
+# Ignore compiled JSON schemas
+*.schema.json
